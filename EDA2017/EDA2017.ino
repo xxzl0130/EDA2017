@@ -1,8 +1,9 @@
-/*
- Name:		EDA2017.ino
- Created:	2017/8/10 8:50:23
- Author:	zaxs0
-*/
+#include <SPI.h>
+#include <stdint.h>
+#include <CS5460.h>
+#include <PWM.h>
+#include <LiquidCrystal_I2C.h>
+#include <PID.h>
 
 // the setup function runs once when you press reset or power the board
 void setup() {
